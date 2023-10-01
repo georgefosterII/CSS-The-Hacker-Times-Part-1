@@ -2,7 +2,7 @@
 body{
     background-color: #eee;
     font-family:Arial, Helvetica, sans-serif;
-    padding: 5em;
+    padding: 0em;
     margin: 10em;
     text-align: center;
 }
@@ -13,6 +13,9 @@ body{
 
 .newspaper-container{
     background-color: white;
+    width: 700px;
+    border-radius: 10ox;
+    box-shadow: 10px;
 }
 
 h1{
@@ -22,10 +25,10 @@ h1{
     font-weight: bold;
 }
 
-h2,
-h3 {
+h2 {
     font-family:cursive;
     background-color: white;
+    font-size: 30px;
 }
 
 h5 {
@@ -34,10 +37,10 @@ h5 {
 
 nav {
     background-color: white;
-    padding: 10px;
+    padding: 0;
     border-bottom: 2px solid #eee;
     border-top:  2px solid #eee;
-    margin:20px;
+    margin: 10px;
 }
 
 nav ul {
@@ -48,6 +51,7 @@ nav ul {
 nav li {
     display: inline;
     padding: 20px;
+    padding: 10px;
 }
 
 a {
@@ -55,7 +59,17 @@ a {
     text-decoration: none;
 }
 
-main{
+main {
     text-align: left;
     margin: 20px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 100%
+}
+
+p {
+    display:block;
 }
