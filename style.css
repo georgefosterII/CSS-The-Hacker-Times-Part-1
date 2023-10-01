@@ -2,7 +2,7 @@
 body{
     background-color: #eee;
     font-family:Arial, Helvetica, sans-serif;
-    padding: 0em;
+    padding: 5em;
     margin: 10em;
     text-align: center;
 }
@@ -15,11 +15,21 @@ body{
     background-color: white;
 }
 
-h1,
+h1{
+    font-family: cursive;
+    background-color: white;
+    font-size: 100px;
+    font-weight: bold;
+}
+
 h2,
 h3 {
     font-family:cursive;
     background-color: white;
+}
+
+h5 {
+    color: red
 }
 
 nav {
@@ -27,6 +37,7 @@ nav {
     padding: 10px;
     border-bottom: 2px solid #eee;
     border-top:  2px solid #eee;
+    margin:20px;
 }
 
 nav ul {
@@ -41,4 +52,10 @@ nav li {
 
 a {
     color: #777;
+    text-decoration: none;
+}
+
+main{
+    text-align: left;
+    margin: 20px;
 }
