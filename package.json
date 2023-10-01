@@ -1,0 +1,9 @@
+"scripts": {
+  "start": "node your-script.js"
+}
+{
+  "dependencies": {
+    "package-lock.json": "^1.0.0"
+  }
+}
+
