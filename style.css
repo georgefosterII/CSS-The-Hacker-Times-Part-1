@@ -46,6 +46,8 @@ nav {
     border-bottom: 2px solid #eee;
     border-top:  2px solid #eee;
     margin: 1px;
+    position: sticky;
+    top: 1%;
 }
 
 nav ul {
