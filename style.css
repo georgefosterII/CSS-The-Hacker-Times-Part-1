@@ -2,8 +2,8 @@
 body{
     background-color: #eee;
     font-family: source sans pro;
-    padding: 5px;
-    margin: 25px;
+    padding: 1vh;
+    margin: 2vh;
     text-align: center;
     
 }
@@ -71,15 +71,10 @@ a {
 
 main {
     text-align: left;
-    margin: 0x;
+    margin: 1vh;
 }
 
-img {
-    width: 100%;
-    height: auto;
-    max-width: 100%
-    padding: 0.5em;
-}
+
 
 p {
     display:block;
@@ -87,17 +82,22 @@ p {
     padding: 10px;
 }
 
-
+/* flexbox */
 .more-articles {
-    display: inline-flex; /** set the container as flexbox **/
-    align-items: center; /** align all items vertically **/
+    display: flex; /** set the container as flexbox **/
+    flex-direction: row; /** align all items vertically **/
+    justify-content: space-between;
     text-align: left;
     border-top: 2px solid #eee;
     width: 700px;
-    padding:1px;
-    
    
   }
+
+  img {
+    width: ;
+    height: auto;
+    
+}
   
  
   
