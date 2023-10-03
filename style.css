@@ -8,6 +8,10 @@ body{
     
 }
 
+title {
+    font-family: Roboto Slab;
+}
+
 .date{
     text-align: left;
 }
@@ -17,8 +21,8 @@ body{
     width: 700px;
     border-radius: 20px;
     box-shadow: 10px 5px 5px #ddd;
-    padding: 15px;
-    margin: 10px;
+    padding: 2vh;
+    margin: 1vh;
     
 }
 
@@ -80,6 +84,8 @@ p {
     display:block;
     text-align: left;
     padding: 10px;
+    
+   
 }
 
 /* flexbox */
@@ -91,6 +97,11 @@ p {
     border-top: 2px solid #eee;
     width: 700px;
    
+  }
+
+  .front-page {
+    width:100%;
+    height:auto;
   }
 
   img {
