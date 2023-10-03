@@ -92,8 +92,8 @@ p {
 .more-articles {
     display: flex; /** set the container as flexbox **/
     flex-direction: row; /** align all items vertically **/
-    justify-content: space-between;
-    text-align: left;
+    justify-content: start;
+    text-align: center;
     border-top: 2px solid #eee;
     width: 700px;
    
